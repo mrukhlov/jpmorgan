@@ -1,0 +1,51 @@
+{
+  "id": "a88dbfd7-af99-4529-9caf-d8871625b241",
+  "timestamp": "2017-02-01T11:52:10.721Z",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "How much money did I earn in December",
+    "action": "account.earning.check",
+    "actionIncomplete": false,
+    "parameters": {
+      "account": "",
+      "date": "",
+      "date-period": "2017-12-01/2017-12-31"
+    },
+    "contexts": [
+      {
+        "name": "earning",
+        "parameters": {
+          "date": "",
+          "date.original": "",
+          "date-period.original": "December",
+          "account.original": "",
+          "date-period": "2017-12-01/2017-12-31",
+          "account": ""
+        },
+        "lifespan": 5
+      }
+    ],
+    "metadata": {
+      "intentId": "0db5ffef-30c7-417e-8acb-d41c2d50c228",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "account.earning.check"
+    },
+    "fulfillment": {
+      "speech": "There were no transactions.",
+      "displayText": "There were no transactions.",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "There were no transactions."
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "d7b3eafc-543f-404a-bbbc-c171164a0839"
+}
